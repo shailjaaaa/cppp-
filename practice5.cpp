@@ -5,7 +5,7 @@ int main ()
     char a='A';
     for(a='A';a<='Z';a++)
     {
-        cout<<a<<":"<<a<<"\t";
+        cout<<a<<":"<<char(a+32)<<"\t";
     }
     return 0;
 
