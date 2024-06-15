@@ -10,5 +10,10 @@ int main()
         cout << i << "\t";
     }
 
+
+
+
+
+
     return 0;
 }
