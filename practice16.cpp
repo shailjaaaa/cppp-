@@ -17,7 +17,7 @@ int main()
         name2[k]=name1[j];
     }
     name2[k]='\0';
-    puts(name2[k]);
+    puts(name2);
     
     return 0;
 }
