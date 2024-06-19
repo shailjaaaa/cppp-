@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class Batsmam
+class Batsman
 {
     private:
     int bcode;
