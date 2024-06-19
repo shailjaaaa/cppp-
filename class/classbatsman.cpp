@@ -43,5 +43,6 @@ int main()
     class Batsman bt;
     bt.readdata();
     bt.displaydata();
+    
     return 0;
 }
