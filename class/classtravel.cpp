@@ -21,9 +21,7 @@ class Travel
     }
     void showinfo()
     {
-        cout<<"Flight number:"<<flightno;
-        cout<<"\nDestination:"<<destination;
-        cout<<"\nDistance:"<<distance;
+        
         cout<<"\nFuel used:"<<calcfuel(distance);
     }
 };
