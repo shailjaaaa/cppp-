@@ -22,7 +22,22 @@ class Travel
     void showinfo()
     {
         
-        cout<<"\nFuel used:"<<calcfuel(distance);
+        
+        if(0<distance && distance<1000)
+    {
+        fuel=500;
+        cout<<"Fuel used:"<<fuel;
+    }
+    else if(1000<distance && distance<2000)
+    {
+        fuel=1100;
+        cout<<"Fuel used:"<<fuel;
+    }
+    else
+    {
+        fuel=2200;
+        cout<<"Fuel used:"<<fuel;
+    }
     }
 };
 float Travel:: calcfuel(int distance)

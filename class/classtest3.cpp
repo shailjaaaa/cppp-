@@ -22,10 +22,8 @@ class Test
     }
     void disptest()
     {
-        cout<<"Testcode:"<<testcode;
-        cout<<"\nDescripton:"<<description;
-        cout<<"\nNumber of candidate:"<<candidno;
-        cout<<"\nCenter required:"<<calcntr(candidno);
+        
+        cout<<"Center required:"<<calcntr(candidno);
         
     }
 };
