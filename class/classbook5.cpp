@@ -26,9 +26,9 @@ class Book
     }
     void totalprice()
     {
-        cout<<"\nBook number:"<<bookno;
-        cout<<"\nBook title:"<<booktitle;
-        cout<<"\nBook price:"<<price;
+        // cout<<"\nBook number:"<<bookno;
+        // cout<<"\nBook title:"<<booktitle;
+        // cout<<"\nBook price:"<<price;
 
          cout<<"\nTotal price:"<<totalcost(n);
     }

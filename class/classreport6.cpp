@@ -6,8 +6,8 @@ class Report
     int adno;
     char name[20];
     int arr[5];
-    int avg;
-    int sum;
+    int avg=0;
+    int sum=0;
     float getavg(int avg);
     int i;
     int n=5;
